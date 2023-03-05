@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+    .hello{
+        border: 1px solid black;
+        height: 100px;
+        width: 200px;
+        margin: 10px;
+        padding:40px;      
+        box-sizing: border-box;
+    }
+
+    #org{
+        background-color: orangered;
+
+    }
+
+    #wht{
+        background-color: white;
+    }
+
+    #grn{
+        background-color: green;
+    }
+
+
+</style>
+
+<!--padding se box ka size increase kr jayega-->
+<!--but we dont wan ki box ka sizze ka size increase ho to sath me we use box sizing-->
+
+</head>
+
+
+<body>
+    <div class="hello" id="org">A</div>
+    <div class="hello" id="wht">B</div>
+    <div class="hello" id="grn">C</div>
+
+</body>
+</html>
